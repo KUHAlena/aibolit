@@ -1,1 +1,157 @@
-/*# sourceMappingURL=main.css.map */
+@import "./style/fonts.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-grid {
+  display: grid;
+  grid-template-columns: 10% 30% 60%;
+  grid-template-rows: 20% 60% 20%;
+}
+
+.header {
+  grid-row: 1/2;
+  grid-column: 1/4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  color: #c3b9b5;
+  width: 1760px;
+  height: 100px;
+}
+
+.header__item {
+  text-align: left;
+  color: #c3b9b5;
+  font-family: "Futura New Bold Reg", sans-serif;
+  text-decoration: none;
+}
+
+.aside {
+  grid-row: 2/4;
+  grid-column: 1/2;
+  height: 490px;
+}
+
+.main {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+.main__title {
+  font-family: "SchoolBook Cyrillic", Helvetica;
+  font-size: 80px;
+  white-space: normal;
+}
+
+.main__button {
+  width: 284.5px;
+  height: 67px;
+}
+
+.big_img {
+  grid-row: 2/4;
+  grid-column: 3/4;
+  width: 833.6px;
+  height: 786px;
+}
+
+.social {
+  grid-row: 3/4;
+  grid-column: 2/3;
+  display: flex;
+  justify-content: space-between;
+  width: 310px;
+  height: 40px;
+}
+
+.assets {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+
+.assets__card_1 {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+.assets__card_2 {
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+
+.assets__card_3 {
+  grid-row: 1/2;
+  grid-column: 3/4;
+}
+
+.assets__card_4 {
+  grid-row: 1/2;
+  grid-column: 4/5;
+}
+
+.assets__card_5 {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+
+.assets__card_6 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+.assets__card_7 {
+  grid-row: 2/3;
+  grid-column: 3/4;
+}
+
+.assets__card_8 {
+  grid-row: 2/3;
+  grid-column: 4/5;
+}
+
+.assets__card_9 {
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+
+.assets__card_10 {
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+
+.assets__card_11 {
+  grid-row: 3/4;
+  grid-column: 3/4;
+}
+
+.assets__card_12 {
+  grid-row: 3/4;
+  grid-column: 4/5;
+}
+
+.assets__card_13 {
+  grid-row: 4/5;
+  grid-column: 1/2;
+}
+
+.assets__card_14 {
+  grid-row: 4/5;
+  grid-column: 2/3;
+}
+
+.assets__card_15 {
+  grid-row: 4/5;
+  grid-column: 3/4;
+}
+
+.assets__card_16 {
+  grid-row: 4/5;
+  grid-column: 4/5;
+}/*# sourceMappingURL=main.css.map */
